@@ -8,7 +8,6 @@ export class Constants {
   static readonly INSIGHTS_DEPLOYMENT_MODE = 'insights';
   static readonly STANDALONE_DEPLOYMENT_MODE = 'standalone';
 
-  static readonly ADMIN_GROUP = 'system:partner-engineers';
   static CERTIFIED =
     DEPLOYMENT_MODE === Constants.INSIGHTS_DEPLOYMENT_MODE
       ? 'automation-hub'
